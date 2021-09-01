@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Dv Website</title>
+    <link rel="shortcut icon" href="img.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="bg-danger text-center text-white p-3 mb-5">Search Your Favorite Team Or Team Leauge</h1>
+
+    <div class="container">
+        <div class="d-flex w-50 mx-auto py-3 border-2 border-dark">
+            <input class="form-control me-2" id="input-value" type="search" placeholder="Search your Favourite Team" aria-label="Search">
+            <button id="btn-search" class="btn btn-outline-success" type="submit">Search</button>
+          </div>
+          <p id="error" class="text-uppercase text-center fw-bolder text-danger">search like it England or Argentina</p>
+    </div>
+    
+    <div class="container">
+        <div id="box-container" class="w-50 mx-auto mb-5">
+            
+        </div>
+    </div>
+
+    <div class="container">
+            <div id="team-container" class="row row-cols-1 row-cols-md-3 g-4">
+              </div>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
